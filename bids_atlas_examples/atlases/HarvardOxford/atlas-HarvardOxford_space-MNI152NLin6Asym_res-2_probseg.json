@@ -1,0 +1,26 @@
+{
+    "Name": "Harvard-Oxford parcellation as provided with FSL",
+    "Authors": [
+        "David Kennedy",
+        "Christian Haselgrove",
+        "Bruce Fischl",
+        "Janis Breeze",
+        "Jean Frazie",
+        "Larry Seidman",
+        "Jill Goldstein"
+    ],
+    "BIDSVersion": "1.1.0",
+    "Curators": "FSL team",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz",
+    "Space": "MNI152NLin6Asym",
+    "Resolution": "Matched with original template resolution (2x2x3 mm^3)",
+    "Dimensions": "4",
+    "4thDimension": "Indices",
+    "License": "See LICENSE file",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2012.01.024",
+        "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"
+    ],
+    "Species": "Human"
+}

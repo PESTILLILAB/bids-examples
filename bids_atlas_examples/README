@@ -1,0 +1,46 @@
+This example dataset aims to showcase the different use cases supported by `BIDS Atlas`, ie [BEP038](https://docs.google.com/document/d/1RxW4cARr3-EiBEcXjLpSIVidvnUSHE7yJCUY91i5TfM/edit?usp=sharing) and thus also evaluating and testing the proposed changes to the specification. 
+
+Only the imaging files, ie `*.nii.gz` have been truncated to `0 bytes`, while all other files, ie the `.tsv` `LookUpTables` and `JSON` metadata are provided in full. 
+
+# BIDS Atlas use cases and respective atlases
+
+In order to cover the use cases of this `BEP`, the dataset at hand entails multiple `atlases` as indicated below.
+`Atlases` are utilized in `BIDS-Atlas` in **two general ways**: `non-altered`/`original` `atlases` are stored at BIDS root and `altered`/`derived`/`applied` `atlases` are stored under `derivatives`.
+
+## non-altered/derived atlases shared at BIDS root
+
+The first option refers to `atlases` that were `not altered`, e.g. via `spatial transformations` and/or `resampling` or `applied` to data and thus encompass their initial inclusion/utilization in a given dataset. 
+
+If there is only this form of `atlases` (i.e., the tool used), they are always shared at the `BIDS root` folder and everything else is under `derivatives`. 
+
+This allows validating any `atlas` using the `BIDS validator`. 
+
+Importantly, this case uses the `“atlas-” identifier`, following the same directory structure as `“sub”`, i.e., one dedicated directory for each `atlas` within a given dataset.
+
+### Examples
+
+The following examples for this use case are provided.
+
+#### Automated Anatomical Labeling (AAL)
+
+The `Automated Anatomical Labeling (AAL)` as provided for `SPM12` [here](https://www.gin.cnrs.fr/en/tools/aal/).
+
+#### Schaefer 2018 parcellation
+
+The `Schaefer 2018 parcellation` as provided [here](https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI).
+
+This `atlas` is provided in different versions to outline how this can be achieved via the `BEP`. Specifically, 4 versions are provided: `400` and `800` parcels and `7` and `17` `networks`.
+
+
+#### Harvard-Oxford parcellation
+
+The `Harvard-Oxford parcellation` as with `FSL` [here](https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases).
+
+This `atlas` is provided in two different versions, a `probabilistic` and a `deterministic` version, to showcase the respective distinction as captured/described by the `BEP`. 
+
+
+## altered/derived atlases shared under derivatives
+
+Besides this default and required storage of the non-altered atlas at the root directory, the second use case provides three options to store atlases that were either altered, applied, or derived within a given dataset. While option 1 also uses the “`atlas`” identifier, options 2 and 3 use the “`seg`” identifier.
+
+### Examples

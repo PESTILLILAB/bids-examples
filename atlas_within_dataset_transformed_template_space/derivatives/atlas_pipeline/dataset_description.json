@@ -1,0 +1,6 @@
+{
+    "BIDSVersion": "1.0.0",
+    "License": "CC0",
+    "Name": "BIDS Atlas within dataset example - atlas transformed to template space",
+    "DatasetType": "derivative"
+}

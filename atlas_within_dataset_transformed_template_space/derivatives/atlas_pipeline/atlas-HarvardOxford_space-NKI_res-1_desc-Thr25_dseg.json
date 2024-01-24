@@ -1,0 +1,26 @@
+{
+    "Name": "Harvard-Oxford parcellation as provided with FSL transformed to NKI space",
+    "Authors": [
+        "David Kennedy",
+        "Christian Haselgrove",
+        "Bruce Fischl",
+        "Janis Breeze",
+        "Jean Frazie",
+        "Larry Seidman",
+        "Jill Goldstein"
+    ],
+    "BIDSVersion": "1.1.0",
+    "Curators": "FSL team",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-NKI_res-01_T1w.nii.gz",
+    "Space": "NKI",
+    "Resolution": "Matched with template resolution (1x1x1 mm^3)",
+    "Sources": ["bids:raw:atlas/atlas-HarvardOxford/atlas-HarvardOxford_space-MNI152NLin6Asym_res-1_desc-Thr25_dseg.nii.gz"],
+    "Dimensions": "3",
+    "License": "See LICENSE file",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+        "https://doi.org/10.1016/j.neuroimage.2012.01.024",
+        "https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/Atlases"
+    ],
+    "Species": "Human"
+}

@@ -1,0 +1,17 @@
+{
+    "Name": "Schaefer 2018 parcellation",
+    "Description": "Release v0.14.3 of the Schaefer 2018 parcellation.",
+    "Authors": [],
+    "BIDSVersion": "1.1.0",
+    "Curators": "",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-01_T1w.nii.gz",
+    "Space": "MNI152NLin6Asym",
+    "Resolution": "Matched with original template resolution (1x1x1 mm^3)",
+    "Dimensions": "3",
+    "License": "MIT",
+    "ReferencesAndLinks": [
+        "https://github.com/ThomasYeoLab/CBIG/tree/v0.14.3-Update_Yeo2011_Schaefer2018_labelname/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations",
+        "https://doi.org/10.1093/cercor/bhx179"
+    ],
+    "Species": "Human"
+}

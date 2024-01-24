@@ -18,7 +18,7 @@
     "BIDSVersion": "1.1.0",
     "Curators": "FSL team",
     "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsaverage_hemi-L_den-164k_white.surf.gii",
-    "Space": "fsaverage (right hemisphere)",
+    "Space": "fsaverage (left hemisphere)",
     "Resolution": "163842 vertices; matched to SpatialReference",
     "Dimensions": "3",
     "License": "See LICENSE file",

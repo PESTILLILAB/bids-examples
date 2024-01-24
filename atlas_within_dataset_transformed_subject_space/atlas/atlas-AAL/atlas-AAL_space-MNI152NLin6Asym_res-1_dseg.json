@@ -1,0 +1,19 @@
+{
+    "Name": "Automated Anatomical Labeling (AAL) atlas - SPM12 version",
+    "Description": "AAl atlas for SPM 12. Notes: This atlas is the result of an automated anatomical parcellation\nof the spatially normalized single-subject high-resolution T1 volume provided by the\nMontreal Neurological Institute (MNI) (D. L. Collins et al., 1998, Trans. Med. Imag. 17, 463-468, PubMed).\nUsing this parcellation method, three procedures to perform the automated anatomical labeling of functional\nstudies are proposed: (1) labeling of an extremum defined by a set of coordinates, (2) percentage of voxels belonging\nto each of the AVOI intersected by a sphere centered by a set of coordinates,\nand (3) percentage of voxels belonging to each of the AVOI intersected by an activated cluster.",
+    "Authors": [
+    ],
+    "BIDSVersion": "1.1.0",
+    "Curators": "",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-MNI152NLin6Asym_res-02_T1w.nii.gz",
+    "Space": "MNI152NLin6Asym",
+    "Resolution": "Matched with original template resolution (2x2x2 mm^3)",
+    "Dimensions": "3",
+    "License": "Unknown",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+        "https://www.gin.cnrs.fr/en/tools/aal/",
+        "https://doi.org/10.1006/nimg.2001.0978."
+    ],
+    "Species": "Human"
+}

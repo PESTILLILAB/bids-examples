@@ -1,0 +1,19 @@
+{
+    "Name": "Automated Anatomical Labeling (AAL) atlas - SPM12 version - transformed to subject space",
+    "Authors": [],
+    "BIDSVersion": "1.1.0",
+    "Curators": "",
+    "SpatialReference": "bids:raw:sub-01/anat/sub-01_T1w.nii.gz",
+    "Space": "orig",
+        "Sources": [
+            "bids:raw:sub-01/anat/sub-01_T1w.nii.gz",
+            "bids:atlas:atlas-AAL/atlas-AAL_space-MNI152NLin6Asym_res-1_dseg.nii.gz"
+        ],
+    "Resolution": "Matched with original resolution (1x1x1 mm^3)",
+    "Dimensions": "3",
+    "License": "Unknown",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+    ],
+    "Species": "Human"
+}

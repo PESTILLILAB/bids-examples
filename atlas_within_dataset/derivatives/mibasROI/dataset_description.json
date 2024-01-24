@@ -1,0 +1,6 @@
+{
+    "BIDSVersion": "1.0.0",
+    "License": "CC0",
+    "Name": "BIDS Atlas derived PET atlas per ROI example",
+    "DatasetType": "derivative"
+}

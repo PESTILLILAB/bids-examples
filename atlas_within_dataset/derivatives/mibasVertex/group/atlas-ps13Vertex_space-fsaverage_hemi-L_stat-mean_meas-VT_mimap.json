@@ -1,0 +1,32 @@
+{
+    "Name": "A PET Molecular Imaging Brain Atlas of Cyclooxygenase-1 (Kim 2021)",
+    "Authors": [
+        "Doug Greve", 
+        "Paul Wighton", 
+        "Melanie Ganz", 
+        "Martin Nørgaard", 
+        "Paolo Zanotti-Fregonara", 
+        "Cyril Pernet", 
+        "Anthony Galassi", 
+        "Adam Thomas", 
+        "Nafiseh Ghazanfari", 
+        "Jeih-San Liow", 
+        "Granville Matheson", 
+        "Gitte Knudsen", 
+        "Robert Innis"
+    ],
+    "BIDSVersion": "1.1.0",
+    "Curators": "FSL team",
+    "SpatialReference": "https://templateflow.s3.amazonaws.com/tpl-fsaverage_hemi-L_den-164k_white.surf.gii",
+    "Space": "fsaverage (right hemisphere)",
+    "Resolution": "163842 vertices; matched to SpatialReference",
+    "Dimensions": "3",
+    "License": "See LICENSE file",
+    "LevelType": "group",
+    "Motion Correction": "None",
+    "Partial Volume Correction": "None",
+    "Smoothing": "None",
+    "Method": "Logan",
+    "Tstar": "540s",
+    "Species": "Human"
+}

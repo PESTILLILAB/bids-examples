@@ -1,0 +1,15 @@
+{
+    "Name": "Individual Parcellation",
+    "Authors": [],
+    "BIDSVersion": "1.1.0",
+    "Curators": "",
+    "SpatialReference": "bids::sub-01/anat/sub-01_T1w.nii.gz",
+    "Space": "orig",
+    "Resolution": "Matched with original resolution (1x1x1 mm^3)",
+    "Dimensions": "3",
+    "License": "Unknown",
+    "RRID": "SCR_002823",
+    "ReferencesAndLinks": [
+    ],
+    "Species": "Human"
+}

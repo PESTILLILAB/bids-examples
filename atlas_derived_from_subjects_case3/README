@@ -1,0 +1,9 @@
+This example dataset aims to showcase subject specific atlases. Only the imaging files, ie `*.nii.gz` have been truncated to `0 bytes`, while all other files, ie the `.tsv` `LookUpTables` and `JSON` metadata are provided in full. 
+
+# BIDS Atlas use cases and respective atlases
+
+`Atlases` are utilized in `BIDS-Atlas` in **two general ways**: as `DataSet` of type `atlas` in case an atlas (or multiple) is provided solely and as-is and within a `DataSet` of type `raw` or `derivative`. In the latter case, `non-altered`/`original` `atlases` are stored at `BIDS root` and `altered`/`derived`/`applied` `atlases` are stored under `derivatives`.
+
+## Atlas-within-dataset - atlas derived within a given subject 
+
+The example provided here refers to "atlas-within-dataset" use case, specifically use cases where an `atlas` is derived within a given `subject` only. It is illustrated here with the `atlas` being a set a maps describing tumour specific locations. Other atlases could be set of histological maps (in such case the _coordsystem.json would be needded to match image coordinates and reference frames).  
